@@ -26,6 +26,3 @@ knn.fit(X_train, y_train)
 # Make predictions
 predictions = knn.predict(X_test)
 
-# Calculate accuracy
-accuracy = np.sum(predictions == y_test) / len(y_test)
-print(f"Accuracy: {accuracy * 100:.2f}%")
